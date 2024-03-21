@@ -34,7 +34,9 @@ const config = {
       },
       backgroundImage: {
         'custom-gradient': "linear-gradient(225deg, #6675F7 0%, #57007B 100%)",
-      }
+        'custom-gradient-separator': "linear-gradient(225deg, #F76680 0%, #57007B 100%)",
+        'custom-gradient-number': "linear-gradient(225deg, #F76680 0%, #57007B 100%)"
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
