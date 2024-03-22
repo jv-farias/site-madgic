@@ -19,7 +19,7 @@ export const Service = ({
   descriptionService,
 }: ServiceProps) => {
   return (
-    <div className="min-w-[330px] max-w-[330px] shadow-md">
+    <div className="min-w-[330px] max-w-[330px] shadow-md max-sm:min-w-full">
       <Card>
         <CardHeader>
           <CardTitle>

@@ -15,7 +15,7 @@ export const CardProjects = ({
 }: CardProjectsProps) => {
   return (
     <div className="flex flex-col items-center">
-      <div className="min-w-[300px] max-w-[300px] border border-gray-300 rounded-md">
+      <div className="min-w-[300px] max-w-[300px] border border-gray-300 rounded-md max-sm:w-full max-sm:h-full">
         <Card>
           <CardHeader>
             <CardTitle>
